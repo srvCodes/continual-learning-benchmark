@@ -1,4 +1,4 @@
-# Continual Learning Benchmark [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+# Continual Learning Benchmark [![forthebadge made-with-python](https://github.com/pytorch/pytorch/blob/master/docs/source/_static/img/pytorch-logo-dark.svg)
 
 This repo contains the code for reproducing the results for the following papers:
 
