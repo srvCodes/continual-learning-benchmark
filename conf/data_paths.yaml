@@ -1,0 +1,20 @@
+large_data:
+  milan: datasets/milan.xlsx
+  twor: datasets/twor.xlsx
+  aruba: datasets/aruba(1).xlsx
+medium_data:
+  dsads: datasets/Dataset_PerCom18_STL/
+  pamap: datasets/Dataset_PerCom18_STL/
+  opp: datasets/Dataset_PerCom18_STL/
+  hapt: datasets/hapt_data/
+small_data:
+  hatn6: datasets/hatn6.csv
+  ws: datasets/ws.csv
+cifar100:
+  train: datasets/cifar-100-python/train
+  test: datasets/cifar-100-python/test
+  meta: datasets/cifar-100-python/meta
+mnist:
+  train: datasets/MNIST/mnist_train.csv
+  test: datasets/MNIST/mnist_test.csv
+
