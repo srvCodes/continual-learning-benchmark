@@ -31,9 +31,9 @@ parser.add_argument('--exemp_size', default=6, type=int,
 parser.add_argument('--method', default='kd_kldiv', type=str,
                     help="distillation method to use: 'ce' for only cross entropy"
                          "'kd_kldiv' for base distillaiton loss with kl divergence "
-                         "'kd_kldiv_bic' for distillation with bias correction, "
-                         "'kd_kldiv_wa1' for distillation with weight align-1, "
-                         "'wa2' for distillation with weight-align-2"
+                         "'kd_kldiv_bic' for Large Scale Incremental Learning, "
+                         "'kd_kldiv_wa1' for Maintaining Discrimination and Fairness in Class Incremental Learning,"
+                         "'kd_kldiv_wa2' for Adjusting Decision Boundary for Class Imbalanced Learning"
                          " 'cn': cosine norm with basic distillation loss 'cn_lfc': "
                          "cosine normaliztion with less forget constraint as distillation loss, "
                          "'cn_lfc_mr' : cosine norm + less forget constraint + margin ranking loss,"
@@ -41,12 +41,12 @@ parser.add_argument('--method', default='kd_kldiv', type=str,
                          "'online_ewc' for regularised ewc where there will be only one importance matrix across all tasks, "
                          "'lwf': learning without forgetting, 'gem': gradient episodic memory,"
                          " 'agem': averaged gem, 'ce_holdout': cross entropy with memory replay,"
-                         "'ce_ewc': cross entropy with EWC (uses memory replay and fixed model architecture),"
-                         "'ce_lfc': CE with less forget constraint, 'ce_mr': CE with margin ranking loss,"
+                         "'ce_ewc': EWC with memory replay,"
+                         "'ce_lfc': Cross entropy (CE) with less forget constraint, 'ce_mr': CE with margin ranking loss,"
                          "'ce_replaced': CE with ILOS (--replace_new_logits should be set to True for this to work)")
 parser.add_argument('--exemplar', default='random', type=str, help="exemplar selection strategy: 'random', 'icarl', "
                                                                    "'kmeans', 'dpp', 'boundary', 'sensitivity' or 'fwsr'")
-parser.add_argument('--replace_new_logits', default=False, type=bool, help='if True, replace logits for new class (ILOS paper)')
+parser.add_argument('--replace_new_logits', default=False, type=bool, help='if True, replace logits for new class (Incremental Learning in Online Scenario paper)')
 parser.add_argument('--wt_init', default=False, type=bool,
                     help="whether to initialize the weights for old classes using "
                          "data stats or not")
