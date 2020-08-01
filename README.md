@@ -45,6 +45,10 @@ For instance, training on *ARUBA* dataset with FWSR-styled exemplar selection:
 
 For evaluation, please uncomment the lines per the instructions in `runner.py`. This can be used to measure forgetting scores [1], base-new-old accuracies, and average report by holdout sizes.
 
+## Verification
+
+The implementations have been verified through their runs on Perumted-MNIST.
+
 ## Personal Note 
 
 _This work was done as my **EMJMD Master's thesis** at the University of St Andrews._ :smiley:
