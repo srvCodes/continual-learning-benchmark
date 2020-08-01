@@ -1,4 +1,4 @@
-# Continual Learning Benchmark [![forthebadge made-with-python](https://github.com/pytorch/pytorch/blob/master/docs/source/_static/img/pytorch-logo-dark.svg)](https://pytorch.org/)
+# Continual Learning Benchmark [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 This repo contains the code for reproducing the results for the following papers:
 
@@ -18,3 +18,6 @@ For instance, training on *ARUBA* dataset with FWSR-styled exemplar selection:
 >>> python runner.py --dataset 'aruba' --total_classes 11 --base_classes 2 --new_classes 2 --epochs 160 --method 'kd_kldiv_wa1' --exemplar 'fwsr' # e.g. for FWSR-styled exemplar selection
 
 ```
+
+
+[![forthebadge made-with-python](https://github.com/pytorch/pytorch/blob/master/docs/source/_static/img/pytorch-logo-dark.svg)](https://pytorch.org/)
