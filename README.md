@@ -9,7 +9,7 @@ This repo contains the code for reproducing the results for the following papers
 
 A sub-total of 11 recent continual learning techniques have been implemented so far:
 
-1. Maintaining Discrimination and Fairness in Class Incremental Learning [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhao_Maintaining_Discrimination_and_Fairness_in_Class_Incremental_Learning_CVPR_2020_paper.pdf)
+1. Maintaining Discrimination and Fairness in Class Incremental Learning [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhao_Maintaining_Discrimination_and_Fairness_in_Class_Incremental_Learning_CVPR_2020_paper.pdf)]
 2. Adjusting Decision Boundary for Class Imbalanced Learning [Paper](https://ieeexplore.ieee.org/document/9081988)
 3. Large Scale Incremental Learning [Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wu_Large_Scale_Incremental_Learning_CVPR_2019_paper.pdf)
 4. Learning a Unified Classifier Incrementally via Rebalancing [Paper](http://dahualin.org/publications/dhl19_increclass.pdf)
