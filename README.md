@@ -45,7 +45,13 @@ For instance, training on *ARUBA* dataset with FWSR-styled exemplar selection:
 
 For evaluation, please uncomment the lines per the instructions in `runner.py`. This can be used to measure forgetting scores [1], base-new-old accuracies, and average report by holdout sizes.
 
+## Personal Note 
+
 _This work was done as my **EMJMD Master's thesis** at the University of St Andrews._ :smiley:
+
+## Acknowledgement
+
+Special thanks to this [sairin1202](https://github.com/sairin1202)'s implementation of [BiC](https://github.com/sairin1202/BIC) and [Electronic Tomato](https://github.com/ElectronicTomato)'s implementation of [GEM/AGEM/EWC/MAS](https://github.com/ElectronicTomato/continue_leanrning_agem/tree/master/agents). 
 
 ## References
 
