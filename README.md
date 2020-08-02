@@ -1,8 +1,8 @@
-# Continual Learning Benchmark [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+# Continual Learning Benchmark [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/) [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
 This repo contains the code for reproducing the results of the following papers:
 
-1. [Continual Learning in Human Activity Recognition: An Emperical Analysis of Regularization](https://drive.google.com/file/d/1B-p_xzlA2j56LtzxQyUHA34QwxedJosJ/view) [Accepted at ICML 2020 workshop on Continual Learning]
+1. [Continual Learning in Human Activity Recognition (HAR): An Emperical Analysis of Regularization](https://drive.google.com/file/d/1B-p_xzlA2j56LtzxQyUHA34QwxedJosJ/view) [Accepted at ICML 2020 workshop on Continual Learning]
 2. Benchmarking Continual Learning in Sensor-based Human Activity Recognition: an Empirical Analysis [Submitted to the Pervasive and Mobile Computing Journal]
 
 ![Incremental learning](https://github.com/srvCodes/continual-learning-benchmark/blob/master/utils/img/incremental_learning.png)
@@ -41,13 +41,17 @@ For instance, training on *ARUBA* dataset with FWSR-styled exemplar selection:
 
 ```
 
+## Datasets
+
+The experiments were performed on 8 publicly available HAR datasets. These can downloaded from the drive link in `datasets/`.
+
 ## Evaluating the logs
 
 For evaluation, please uncomment the lines per the instructions in `runner.py`. This can be used to measure forgetting scores [1], base-new-old accuracies, and average report by holdout sizes.
 
 ## Verification
 
-The implementations have been verified through their runs on Permumted-MNIST.
+The implementations have been verified through their runs on Permumted-MNIST - also available for download in `datasets/`.
 
 ## Personal Note 
 
