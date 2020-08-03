@@ -62,8 +62,8 @@ KD_MR with less forget constraint loss (KD_LFC_MR) | kd_kldiv_lfc_mr
 KD_LFC_MR with WA-MDF | kd_kldiv_lfc_mr_wa1
 KD_LFC_MR with WA-ADB | kd_kldiv_lfc_mr_wa2
 Cosine normalisation with knowledge distillation | cn_kd_kldiv
-ILOS (with any of above) | `--replace_new_logits = True`
-LUCIR-styled weight initialisation (with any of above) | `--wt_init = True`
+ILOS (with either of above) | `--replace_new_logits = True`
+LUCIR-styled weight initialisation (with either of above) | `--wt_init = True`
 
 
 ## Verification
