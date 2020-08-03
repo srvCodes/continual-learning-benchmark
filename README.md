@@ -74,7 +74,7 @@ Please feel free to play around with these. We would be interested in knowing if
 
 ## Verification
 
-The implementations have been verified through their runs on Permumted-MNIST - also available for download in `datasets/`.
+The implementations have been verified through runs on Split-MNIST and Permumted-MNIST - also available for download in `datasets/`.
 
 ## Personal Note 
 
