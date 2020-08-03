@@ -7,12 +7,12 @@ This repo contains the code for reproducing the results of the following papers:
 
 ![Incremental learning](https://github.com/srvCodes/continual-learning-benchmark/blob/master/utils/img/incremental_learning.png)
 
-A sub-total of 11 recent continual learning techniques have been implemented so far:
+A sub-total of 11 recent continual learning techniques have been implemented on a component-wise basis:
 
-1. Maintaining Discrimination and Fairness in Class Incremental Learning [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhao_Maintaining_Discrimination_and_Fairness_in_Class_Incremental_Learning_CVPR_2020_paper.pdf)]
-2. Adjusting Decision Boundary for Class Imbalanced Learning [[Paper](https://ieeexplore.ieee.org/document/9081988)]
+1. Maintaining Discrimination and Fairness in Class Incremental Learning (WA-MDF) [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhao_Maintaining_Discrimination_and_Fairness_in_Class_Incremental_Learning_CVPR_2020_paper.pdf)]
+2. Adjusting Decision Boundary for Class Imbalanced Learning (WA-ADB) [[Paper](https://ieeexplore.ieee.org/document/9081988)]
 3. Large Scale Incremental Learning [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wu_Large_Scale_Incremental_Learning_CVPR_2019_paper.pdf)]
-4. Learning a Unified Classifier Incrementally via Rebalancing [[Paper](http://dahualin.org/publications/dhl19_increclass.pdf)]
+4. Learning a Unified Classifier Incrementally via Rebalancing (LUCIR) [[Paper](http://dahualin.org/publications/dhl19_increclass.pdf)]
 5. Incremental Learning in Online Scenario [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/He_Incremental_Learning_in_Online_Scenario_CVPR_2020_paper.pdf)]
 6. Gradient Episodic Memory for Continual Learning [[Paper](https://papers.nips.cc/paper/7225-gradient-episodic-memory-for-continual-learning.pdf)]
 7. Efficient Lifelong Learning with A-GEM [[Paper](https://openreview.net/forum?id=Hkf2_sC5FX)]
@@ -48,6 +48,23 @@ The experiments were performed on 8 publicly available HAR datasets. These can d
 ## Evaluating the logs
 
 For evaluation, please uncomment the lines per the instructions in `runner.py`. This can be used to measure forgetting scores [1], base-new-old accuracies, and average report by holdout sizes.
+
+## Combination of techniques
+
+The component-wise implementation of techniques nevertheless helps in playing with two or more techniques. This can be done by tweaking the `--method` argument. The table below details some of these combinations:
+
+Technique | Argument for `--method`
+------------ | -------------
+Knowledge distillation with margin ranking loss (KD_MR) | kd_kldiv_mr
+KD_MR with WA-MDF | kd_kldiv_mr_wa1
+KD_MR with WA-ADB | kd_kldiv_mr_wa2
+KD_MR with less forget constraint loss (KD_LFC_MR) | kd_kldiv_lfc_mr
+KD_LFC_MR with WA-MDF | kd_kldiv_lfc_mr_wa1
+KD_LFC_MR with WA-ADB | kd_kldiv_lfc_mr_wa2
+Cosine normalisation with knowledge distillation | cn_kd_kldiv
+ILOS (with any of above) | `--replace_new_logits = True`
+LUCIR-styled weight initialisation (with any of above) | `--wt_init = True`
+
 
 ## Verification
 
