@@ -1,6 +1,7 @@
 """
 Author: Saurav Jha
-ID: 190029087
+MSc, Advanced Systems Dependability
+University of St Andrews
 """
 
 import argparse

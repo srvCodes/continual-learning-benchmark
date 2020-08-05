@@ -1,3 +1,8 @@
+"""
+Author: Saurav Jha
+MSc, Advanced Systems Dependability
+University of St Andrews
+"""
 import math
 import pickle
 import random
@@ -757,6 +762,7 @@ class Trainer():
                 # Part of the network might has no grad, ignore those terms
             # Increment the pointer
             pointer += num_param
+
 
     def get_grad(self, current_grad, previous_avg_grad):
         """

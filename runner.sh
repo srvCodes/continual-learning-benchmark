@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Shell script for creating all result directories and guiding over running the commands 
+# Author : Saurav Jha
+# Shell script for creating all result directories and guiding over running the commands
 mkdir -p output_reports/{aruba,dsads,hapt,hatn6,milan,opp,pamap,twor,ws,mnist,permuted_mnist}
 mkdir -p vis_outputs/{accuracy_vis/{acc_by_batches,acc_by_classes,detail_acc},corr_vis/{by_predictions,by_raw_features},exemp_vis,norm_vis/{by_batches,by_epochs},per_person,tsne_vis}
 
