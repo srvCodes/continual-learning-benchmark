@@ -72,6 +72,14 @@ LUCIR-styled weight initialisation (with either of above) | `--wt_init = True`
 
 Please feel free to play around with these. We would be interested in knowing if the combinations deliver better results for you!
 
+## Notes on incremental classes
+
+- All the experiments in our papers used number of base classes and incremental classes as 2. For replicating this, set `--base_classes = 2` and `--new_classes = 2`. 
+
+- For offline learning (_i.e._, without incremental training), set `--base_classes` to the total number of classes in the dataset and `--new_classes = 0`.
+
+- For experiments with permuted datasets, set `--base_classes = --new_classes` where `--base_classes` = the total number of classes in the dataset.
+
 ## Verification
 
 The implementations have been verified through runs on Split-MNIST and Permumted-MNIST - also available for download in `datasets/`.
