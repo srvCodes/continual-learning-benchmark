@@ -45,9 +45,17 @@ For instance, training on *ARUBA* dataset with FWSR-styled exemplar selection:
 
 The experiments were performed on 8 publicly available HAR datasets. These can downloaded from the drive link in `datasets/`.
 
+## Experimental protocol
+
+The experiments for each dataset and for each train set / exemplar size were performed on 30 random sequences of tasks. The logs in `output_reports/[dataname]` (created after executing the bash script) contain the performances of each individual task sequence as the incremental learning progresses. The final accuracy is then reported as the average over the 30 runs (see instructions below for evaluation).
+
 ## Evaluating the logs
 
 For evaluation, please uncomment the lines per the instructions in `runner.py`. This can be used to measure forgetting scores [1], base-new-old accuracies, and average report by holdout sizes.
+
+## Modified Forgetting Measure
+
+
 
 ## Combination of techniques
 
