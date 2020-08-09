@@ -53,8 +53,9 @@ The experiments for each dataset and for each train set / exemplar size were per
 
 For evaluation, please uncomment the lines per the instructions in `runner.py`. This can be used to measure forgetting scores [1], base-new-old accuracies, and average report by holdout sizes.
 
-## Modified Forgetting Measure
+## Modified Forgetting Scores
 
+Code for the proposed forgetting score calculation can be found [here](https://github.com/srvCodes/continual-learning-benchmark/blob/master/train/result_analyser.py#L211).
 
 
 ## Combination of techniques
