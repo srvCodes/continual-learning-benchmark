@@ -1,4 +1,4 @@
-# Continual Learning Benchmark [![forthebadge made-with-python] (https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+# Continual Learning Benchmark ![forthebadge made-with-python](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
 This repo contains the code for reproducing the results of the following papers:
 
