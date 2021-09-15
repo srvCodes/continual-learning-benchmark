@@ -112,7 +112,7 @@ Special thanks to [sairin1202](https://github.com/sairin1202)'s implementation o
 
 If you found this repo useful in your work, please feel free to cite us:
 
-`
+```
 @article{jha2021continual,
   title={Continual Learning in Sensor-based Human Activity Recognition: an Empirical Benchmark Analysis},
   author={Jha, Saurav and Schiemer, Martin and Zambonelli, Franco and Ye, Juan},
@@ -121,4 +121,4 @@ If you found this repo useful in your work, please feel free to cite us:
   publisher={Elsevier}
 }
 
-`
+```
