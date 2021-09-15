@@ -107,3 +107,18 @@ Special thanks to [sairin1202](https://github.com/sairin1202)'s implementation o
 
 
 [![forthebadge made-with-python](https://github.com/pytorch/pytorch/blob/master/docs/source/_static/img/pytorch-logo-dark.svg)](https://pytorch.org/)
+
+## Cite
+
+If you found this repo useful in your work, please feel free to cite us:
+
+`
+@article{jha2021continual,
+  title={Continual Learning in Sensor-based Human Activity Recognition: an Empirical Benchmark Analysis},
+  author={Jha, Saurav and Schiemer, Martin and Zambonelli, Franco and Ye, Juan},
+  journal={Information Sciences},
+  year={2021},
+  publisher={Elsevier}
+}
+
+`
