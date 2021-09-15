@@ -1,9 +1,9 @@
 # Continual Learning Benchmark [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This repo contains the code for reproducing the results of the following papers (done as part of my Master's thesis at the University of St Andrews):
+This repo contains the code for reproducing the results of the following papers (done as part of my Master's thesis at St Andrews):
 
 1. [Benchmarking Continual Learning in Sensor-based Human Activity Recognition: an Empirical Analysis](http://arxiv.org/abs/2104.09396) [Accepted in the _Information Sciences_ (April 2021)]
-2. [Continual Learning in Human Activity Recognition (HAR): An Emperical Analysis of Regularization](https://research-repository.st-andrews.ac.uk/handle/10023/20242) [Accepted at ICML workshop on Continual Learning (July 2020)]
+2. [Continual Learning in Human Activity Recognition (HAR): An Emperical Analysis of Regularization](https://research-repository.st-andrews.ac.uk/handle/10023/20242) [ICML workshop on Continual Learning (July 2020)]
 
 ![Incremental learning](https://github.com/srvCodes/continual-learning-benchmark/blob/master/utils/img/incremental_learning.png)
 
