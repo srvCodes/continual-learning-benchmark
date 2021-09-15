@@ -1,6 +1,6 @@
 # Continual Learning Benchmark [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This repo contains the code for reproducing the results of the following papers:
+This repo contains the code for reproducing the results of the following papers (done as part of my Master's thesis at the University of St Andrews):
 
 1. [Benchmarking Continual Learning in Sensor-based Human Activity Recognition: an Empirical Analysis](http://arxiv.org/abs/2104.09396) [Accepted in the _Information Sciences_ (April 2021)]
 2. [Continual Learning in Human Activity Recognition (HAR): An Emperical Analysis of Regularization](https://research-repository.st-andrews.ac.uk/handle/10023/20242) [Accepted at ICML workshop on Continual Learning (July 2020)]
@@ -93,9 +93,6 @@ Please feel free to play around with these. We would be interested in knowing if
 
 The implementations have been verified through runs on Split-MNIST and Permumted-MNIST - also available for download in `datasets/`.
 
-## Personal Note 
-
-_This work was done as my **EMJMD Master's thesis** at the University of St Andrews._ :smiley:
 
 ## Acknowledgement
 
@@ -112,7 +109,7 @@ Special thanks to [sairin1202](https://github.com/sairin1202)'s implementation o
 
 If you found this repo useful in your work, please feel free to cite us:
 
-```
+```bibtex
 @article{jha2021continual,
   title={Continual Learning in Sensor-based Human Activity Recognition: an Empirical Benchmark Analysis},
   author={Jha, Saurav and Schiemer, Martin and Zambonelli, Franco and Ye, Juan},
@@ -120,5 +117,4 @@ If you found this repo useful in your work, please feel free to cite us:
   year={2021},
   publisher={Elsevier}
 }
-
 ```
