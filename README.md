@@ -103,7 +103,6 @@ Special thanks to [sairin1202](https://github.com/sairin1202)'s implementation o
 [1] Chaudhry, A., Dokania, P.K., Ajanthan, T., & Torr, P.H. (2018). Riemannian Walk for Incremental Learning: Understanding Forgetting and Intransigence. ECCV.
 
 
-[![forthebadge made-with-python](https://github.com/pytorch/pytorch/blob/master/docs/source/_static/img/pytorch-logo-dark.svg)](https://pytorch.org/)
 
 ## Cite
 
