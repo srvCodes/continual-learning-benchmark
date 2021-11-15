@@ -100,6 +100,7 @@ Special thanks to [sairin1202](https://github.com/sairin1202)'s implementation o
 ## References
 
 [1] Chaudhry, A., Dokania, P.K., Ajanthan, T., & Torr, P.H. (2018). Riemannian Walk for Incremental Learning: Understanding Forgetting and Intransigence. ECCV.
+
 [2] Kim, C. D., Jeong, J., & Kim, G. (2020). Imbalanced continual learning with partitioning reservoir sampling. ECCV.
 
 
