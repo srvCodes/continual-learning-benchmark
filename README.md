@@ -41,6 +41,10 @@ For instance, training on *ARUBA* dataset with FWSR-styled exemplar selection:
 
 ```
 
+## Proposed Forgetting Score
+
+The existing forgetting measure metric suffers from self-relativeness, i.e., the forgetting score will remain low throughout the training if the model did not learn much information about the class at the beginning. Class-imbalance scenarios (as in our case) further amplify its ramifications. Code for our correction to the forgetting score (Chaudhary _et al._) can be found [here](https://github.com/srvCodes/continual-learning-benchmark/blob/master/train/result_analyser.py#L211).
+
 ## Datasets
 
 The experiments were performed on 8 publicly available HAR datasets. These can downloaded from the drive link in `datasets/`.
@@ -52,11 +56,6 @@ The experiments for each dataset and for each train set / exemplar size were per
 ## Evaluating the logs
 
 For evaluation, please uncomment the lines per the instructions in `runner.py`. This can be used to measure forgetting scores [1], base-new-old accuracies, and average report by holdout sizes.
-
-## Proposed Forgetting Score
-
-Code for our correction to the forgetting score (Chaudhary _et al._) can be found [here](https://github.com/srvCodes/continual-learning-benchmark/blob/master/train/result_analyser.py#L211).
-
 
 ## Combination of techniques
 
