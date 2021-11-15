@@ -43,7 +43,7 @@ For instance, training on *ARUBA* dataset with FWSR-styled exemplar selection:
 
 ## Proposed Forgetting Score
 
-The existing forgetting measure metric suffers from self-relativeness, i.e., the forgetting score will remain low throughout the training if the model did not learn much information about the class at the beginning. Class-imbalance scenarios (as in our case) further amplify its ramifications [1]. Code for our correction to the forgetting score (Chaudhary _et al._) can be found [here](https://github.com/srvCodes/continual-learning-benchmark/blob/master/train/result_analyser.py#L211).
+The existing forgetting measure metric [1] suffers from self-relativeness, i.e., the forgetting score will remain low throughout the training if the model did not learn much information about the class at the beginning. Class-imbalance scenarios (as in our case) further amplify its ramifications [2]. Code for our correction to the forgetting score can be found [here](https://github.com/srvCodes/continual-learning-benchmark/blob/master/train/result_analyser.py#L211).
 
 ## Datasets
 
@@ -99,8 +99,8 @@ Special thanks to [sairin1202](https://github.com/sairin1202)'s implementation o
 
 ## References
 
-[1] Kim, C. D., Jeong, J., & Kim, G. (2020). Imbalanced continual learning with partitioning reservoir sampling. ECCV.
-[2] Chaudhry, A., Dokania, P.K., Ajanthan, T., & Torr, P.H. (2018). Riemannian Walk for Incremental Learning: Understanding Forgetting and Intransigence. ECCV.
+[1] Chaudhry, A., Dokania, P.K., Ajanthan, T., & Torr, P.H. (2018). Riemannian Walk for Incremental Learning: Understanding Forgetting and Intransigence. ECCV.
+[2] Kim, C. D., Jeong, J., & Kim, G. (2020). Imbalanced continual learning with partitioning reservoir sampling. ECCV.
 
 
 
