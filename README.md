@@ -118,3 +118,12 @@ If you found this repo useful in your work, please feel free to cite us:
   publisher={Elsevier}
 }
 ```
+
+```bibtex
+@article{jha2020continual,
+  title={Continual learning in human activity recognition: an empirical analysis of regularization},
+  author={Jha, Saurav and Schiemer, Martin and Ye, Juan},
+  journal={Proceedings of Machine Learning Research},
+  year={2020}
+}
+```
